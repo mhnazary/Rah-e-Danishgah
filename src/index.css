@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: lalazar;
+  src: url(./assets/fonts/Lalezar.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: yekan;
+  src: url(./assets/fonts/Yekan.ttf);
 }
+
+.header {
+  font-family: lalazar;
+}
+ .ul {
+  font-family: yekan;
+ }
+
+ .active {
+  border-bottom: 2px solid black;
+ }
