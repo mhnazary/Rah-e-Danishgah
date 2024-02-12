@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <>
       <div className="bg-violet-400 text-black h-16 flex justify-between px-10 items-center">
-        <h1 className="header text-3xl">نکست وان کد</h1>
+        <h1 className="header text-3xl">راه دانشگاه</h1>
         <ul className="ul flex justify-evenly w-96">
           <li>
             <NavLink to="/">صفحه اصلی</NavLink>

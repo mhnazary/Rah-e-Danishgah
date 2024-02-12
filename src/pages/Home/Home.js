@@ -10,7 +10,7 @@ export default function Home() {
       <div className="md:flex justify-between items-center">
         <div className="md:w-2/4 p-10">
           <h1 className="ul text-3xl font-bold py-4">
-            برنامه نویسی با نکست وان کد
+            برنامه نویسی با راه دانشگاه
           </h1>
           <p className=" text-justify">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
