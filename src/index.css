@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: lalazar;
+  src: url(./assets/fonts/Lalezar.ttf);
+}
+
+@font-face {
+  font-family: yekan;
+  src: url(./assets/fonts/Yekan.ttf);
+}
+
+.header {
+  font-family: lalazar;
+}
+ .ul {
+  font-family: yekan;
+ }
+
+ .active {
+  border-bottom: 2px solid black;
+ }
